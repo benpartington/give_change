@@ -7,6 +7,8 @@ def give_change(amount)
     change_arr[1] = 1
   elsif amount == 10
     change_arr[2] = 1
+  elsif amount == 20
+    change_arr[3] = 1
   end
 
   change_arr
