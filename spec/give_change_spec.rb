@@ -24,4 +24,8 @@ describe 'give_change' do
   it 'calculates change array of 100 dollars' do
     expect(give_change(100)).to eq([0,0,0,0,0,1])
   end
+
+  it 'calculates change array of 2 dollars' do
+    expect(give_change(2)).to eq([2,0,0,0,0,0])
+  end
 end
